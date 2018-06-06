@@ -48,7 +48,8 @@ class Song
     if artist_count[artist]      # if artist already exist in the hash
       artist_count[artist] += 1  # add 1 to the artist's song count  
     else
-      artist_count[artist] = 1
+      artist_count[artist] = 1  # else, set the first artist's song count to 1
+    end
     }
     
   end
