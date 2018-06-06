@@ -49,6 +49,7 @@ class Song
       else
         artist_count[element] = 1  # else, set the first artist's song count to 1
       end
+      
     end
   end
   
