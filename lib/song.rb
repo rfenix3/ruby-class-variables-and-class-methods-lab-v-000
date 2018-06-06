@@ -51,7 +51,6 @@ class Song
       artist_count[artist] = 1  # else, set the first artist's song count to 1
     end
     }
-    
   end
   
 end
